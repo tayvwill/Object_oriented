@@ -1,0 +1,32 @@
+.grid {
+    border: 3px;
+    height: 150px;
+    width: 170px;
+    display: grid;
+    grid-template-columns: repeat(7, 110px);
+    grid-template-rows: repeat(6, 150px);
+    margin: auto;
+    justify-content: center;
+    background-color: black;
+}
+
+.cell {
+    border: 5px black;
+    background-color: white;
+    border-radius: 50%
+    outline  5px black;
+}
+
+.cell:hover{
+    background-color: aqua;
+}
+
+.player-one {
+background-color: red;
+border-radius: 10px;
+}
+
+.player-two {
+background-color: blue;
+border-radius: 10px;
+}
